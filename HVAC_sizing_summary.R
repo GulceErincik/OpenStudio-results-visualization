@@ -1,3 +1,9 @@
+##
+# Author: Gulce Erincik
+# Created: 05.24.2024
+# 
+# Description: HVAC Sizing Summary - Zone Evaluations 
+##
 
 install.packages("readxl")
 install.packages("tidyr")
@@ -10,10 +16,8 @@ library("dplyr")
 library("tidyr")
 
 # ================================================
-# HVAC Sizing Summary - Zone Evaluations
+# Read xlsx files
 # ================================================
-
-# read xlsx files
 
 HVACSizingSummary <- read_excel("HVAC_Sizing_Summary.xlsx")
 glimpse(HVACSizingSummary)

@@ -1,3 +1,9 @@
+##
+# Author: Gulce Erincik
+# Created: 05.24.2024
+# 
+# Description: Annual Energy Demands 
+##
 
 install.packages("readxl")
 install.packages("tidyverse")
@@ -10,10 +16,8 @@ library("dplyr")
 library("tidyr")
 
 # ================================================
-# Annual Energy Demands
+# Read xlsx files
 # ================================================
-
-# read xlsx files
 
 AnnualEnergyConsumptions <- read_excel("AnnualEnergyConsumptions.xlsx")
 glimpse(AnnualEnergyConsumptions)

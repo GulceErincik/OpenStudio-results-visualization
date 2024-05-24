@@ -1,3 +1,9 @@
+##
+# Author: Gulce Erincik
+# Created: 05.24.2024
+# 
+# Description: U values vs Annual Energy Consumptions
+##
 
 install.packages("readxl")
 install.packages("tidyverse")
@@ -6,10 +12,8 @@ library("readxl")
 library("tidyverse")
 
 # ================================================
-# U values vs Annual Consumptions
+# Read xlsx files
 # ================================================
-
-# read xlsx files
 
 HVACSizingSummary <- read_excel("RvaluesVsAnnualEnergy.xlsx")
 glimpse(HVACSizingSummary)
